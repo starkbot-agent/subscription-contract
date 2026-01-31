@@ -1,13 +1,35 @@
-# StarkBot Subscription Contract
+# StarkBot Monorepo
 
-A Solidity smart contract that handles StarkBot token subscriptions on the Base network.
+A crypto trading bot and subscription system built on Base network. This repository contains the StarkBot ecosystem including smart contracts, trading algorithms, and subscription management.
+
+## Overview
+
+StarkBot is an autonomous crypto trading agent that operates on Base network with:
+- **Automated Trading**: Algorithmic trading strategies and market analysis
+- **Subscription System**: Token-gated access to premium features
+- **Multi-Network Support**: Primarily on Base with cross-chain capabilities
+- **Community Driven**: Open source with community contributions
+
+## Repository Structure
+
+- `/contracts` - Smart contracts for subscription and governance
+- `/trading` - Trading algorithms and market analysis tools
+- `/api` - API endpoints and integrations
+- `/docs` - Documentation and guides
 
 ## Features
 
-- **Subscribe Function**: Allows users to subscribe by transferring 1000 STARKBOT tokens to a designated recipient
-- **Token Integration**: Works with StarkBot token (STARKBOT) on Base network
-- **Subscription Tracking**: Maintains a registry of subscribed addresses
-- **Admin Controls**: Recipient address can be updated by the current recipient
+### Trading Bot Capabilities
+- Real-time market analysis and signal generation
+- Automated position management and risk controls
+- Multi-token support with focus on Base ecosystem
+- Performance tracking and analytics
+
+### Subscription System
+- **Subscribe Function**: Token-gated access requiring 1000 STARKBOT tokens
+- **Token Integration**: Native STARKBOT token integration on Base
+- **Subscription Tracking**: On-chain registry of subscribed addresses
+- **Admin Controls**: Configurable recipient and subscription parameters
 
 ## Contract Details
 

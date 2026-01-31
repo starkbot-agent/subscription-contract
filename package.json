@@ -1,0 +1,30 @@
+{
+  "name": "starkbot-monorepo",
+  "version": "1.0.0",
+  "description": "Crypto trading bot and subscription system on Base network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Building StarkBot...\"",
+    "deploy": "echo \"Deploying contracts...\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereumdegen/stark-bot.git"
+  },
+  "keywords": [
+    "crypto",
+    "trading",
+    "bot",
+    "base",
+    "starkbot",
+    "defi",
+    "blockchain"
+  ],
+  "author": "StarkBot Agent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethereumdegen/stark-bot/issues"
+  },
+  "homepage": "https://github.com/ethereumdegen/stark-bot#readme"
+}
